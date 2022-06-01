@@ -1,0 +1,41 @@
+@charset "UTF"-8;
+/*
+    Tudo q no HTML for id = em CSS será #
+    Tudo q no HTML for class = em CSS será .
+*/
+body {
+    background-color: rgb(49, 49, 188);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    color: rgb(6, 6, 81);
+}
+
+h1#principal {
+    text-align: center;
+    background-color: aquamarine;
+    color: white;
+}
+
+h2 {
+    color: rgb(50, 50, 98);
+}
+
+.basico{
+    color: green;
+    font-weight: bold; /*negrito*/
+}
+
+.intermediario{
+    color: yellow;
+}
+
+.avancado{
+    color: red;
+}
+
+.destaque {
+    background-color: blueviolet;
+}
+/*Podemos usar na mesma linha mais de uma class, como tbm class+id, sabendo que o id prevalece*/
