@@ -13,6 +13,7 @@
         table {
             width: 500px;
             border-collapse: collapse;
+            position: relative; /*Padrão para deixar o cabeçalho fixo*/
         }
 
         td, th {
@@ -30,6 +31,20 @@
         thead, tfoot {
             background-color: #383838;
             color: white;
+        }
+
+        thead > tr > th { /*Cabeçalho fixo*/
+            position: sticky;
+            top: -1px;
+            background-color: #383838;
+        }
+
+        tbody > tr:nth-child(odd) { /* 2n-1*/
+            background-color: white;
+        }
+            /*Este é o efeito zebrado*/
+        tbody > tr:nth-child(even) { /*2n*/
+            background-color: lightgray;
         }
 
         td.num {
