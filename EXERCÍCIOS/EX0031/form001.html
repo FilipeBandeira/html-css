@@ -14,11 +14,12 @@
 <body>
     <h1>Meu primeiro formulário</h1>
 
-    <form action="cadastro.php" autocomplete="off">
+    <form action="cadastro.php" method="post" autocomplete="off">
         <!-- O autocomplete serve para sumir as opções anteriormente adicionadas no form -->
         <!-- O actino é usado com php, pois será usando o php, q os dados serão salvos -->
         <!-- Usando o label, vincula o id, para que o nome e o valor de entrada tenham relação -->
-        
+        <!-- O get para dados simples, o post para dados mais sensíveis -->
+
         <p><label for="inome">Nome:</label> 
             <input type="text" name="nome" id="inome"></p>
         
