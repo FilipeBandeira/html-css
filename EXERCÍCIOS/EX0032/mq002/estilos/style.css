@@ -1,3 +1,25 @@
 @charset "UTF-8";
 
 /* Configurações gerais */
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html, body {
+    width: 100vw;
+    height: 100vh;
+    background-color: #233eff;
+    background-size: contain;
+    /* Contain - para a imagem ficar completa */
+    background-repeat: no-repeat;
+    /* Com o no-repeat a imagem só aparece uma vez */
+}
+
+h1 {
+    color: white;
+    text-shadow: 2px 2px 0px #1526a7;
+    padding: 10px;
+}
