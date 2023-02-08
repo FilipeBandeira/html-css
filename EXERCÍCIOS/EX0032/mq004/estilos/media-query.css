@@ -14,7 +14,7 @@ Grandes telas: acima de 1200px
 /* As configurações para celular já foram feitas no style */
 
 @media print {
-/* Impressão */
+/* Impressora */
     * {
         font-family: 'Courier New', Courier, monospace;
     }
