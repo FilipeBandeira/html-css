@@ -2,7 +2,7 @@
 
 /* Todas as demais mídias */
 
-/* Typical Device Breakpoints 
+/* Typical Device Breakpoints, essas configurações são da w3c
 ------------------------------
 Pequenas telas: até 600px
 Celular: de 600px até 768px
@@ -14,16 +14,17 @@ Grandes telas: acima de 1200px
 /* As configurações para celular já foram feitas no style */
 
 @media print {
-/* Impressora */
+/* Impressora - formatação quando a página for impressa */
     * {
         font-family: 'Courier New', Courier, monospace;
     }
 
     body {
-        background-image: url(../imagens/back-print.jpg);
+        background-image: url(../imagens/back-print.jpg); /*Desnecessário, pois na impressão a imagem não será inpressa*/
     }
 
     main {
+        width: 90vw;
         border: 2px solid black;
     }
 
