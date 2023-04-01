@@ -38,13 +38,14 @@ menu {
 }
 
 menu > ul {
-    list-style-type: none;
+    list-style-type: none; /*Tirar as bolinhas*/
 }
 
-menu > ul > li > a {
+menu > ul > li > a { /*Menu dos links*/
     display: block;
     padding: 10px;
     text-decoration: none;
+    text-align: center;
     background-color: rgb(87, 87, 87);
     color: white;
     border-top: 2px solid gray;
@@ -55,7 +56,7 @@ menu > ul > li > a:hover {
 }
 
 main {
-    width: 90vw;
+    width: 90vw; /*90% da largura*/
     background-color: white;
     margin: auto;
     margin-top: 10px;
@@ -68,7 +69,7 @@ article > h2 {
 }
 
 article > p {
-    text-align: justify;
+    text-align: justify; /*justificado*/
     margin-bottom: 20px;
-    text-indent: 20px;
+    text-indent: 20px; /*espaço no início do parágrafo*/
 }

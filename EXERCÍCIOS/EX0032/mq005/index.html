@@ -12,6 +12,7 @@
     <header>
         <h1>Meu Site</h1>
         
+        <!--Aqui junto com o link do google fontes podemos colocar o ícone do hamburguer-->
         <i id="burguer" class="material-symbols-outlined" onclick="clickMenu()">menu</i>
         
         <menu id="itens">
@@ -38,9 +39,10 @@
     </main>
 
     <script>
+        // A função serve exatamente para que quando o menu for clicado o menu irá aparecer, caso não volta a esconder
         function clickMenu() {
-            if (itens.style.display == 'block') {
-                itens.style.display = 'none'
+            if (itens.style.display == 'block') { // Aparece
+                itens.style.display = 'none' // Esconde
             } else {
                 itens.style.display = 'block'
             }
